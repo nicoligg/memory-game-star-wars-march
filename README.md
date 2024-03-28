@@ -1,38 +1,49 @@
-# Memory Game
-A retro grid-based game in vanilla JavaScript, HTML and CSS
+# Memory Game: Star Wars
+March Automation Team Challenge: Memory Game Star Wars
 
-View the full walkthrough [here](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw) 
+![Badge Complete](https://img.shields.io/badge/status-developing-blue)
+![Badge Release Date](https://img.shields.io/badge/release%20date-March-red)
 
-Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. There are so many versions of it it is hard to in down it's exact origin. There are claims that the famuos writer of Huckleberry Finn, Mark Twain invented his own version. I googled it and whatever it is, it looks more like a way of trying to figure out how much tax you owe rather than match cards.
+![starwars](https://i0.wp.com/experimentesp.com.br/wp-content/uploads/2015/12/c3po-r2d2-luke-leia.gif?resize=500%2C213)
 
-In this repo, I will be putting extra focus on setting Attributes in JavaScript. If you want to learn how to use setAttritube and getAttribute effectively, please have a look at my code.
+# *Project Overview*
 
-I have kept the styling at a bare miniumum for you to go wild and make it your own. Please tag me as I would LOVE to see your game!!!
+The "Memory Game: Star Wars" is a web-based game that challenges your memory while immersing you in the Star Wars universe. This project is a work in progress and is part of the October Automation Team Challenge.
 
-## What inbuilt functions are we going to focus on?
-- for loops
-- addEventListener
-- setAttribute
-- getAttribute
-- data-name
-- document.querySelector
-- createElement
 
-## Rules of Memory Game
-- You will start by flipping over one card
-- If the next card you flip matches, a pop up alert notifies you and you get +1 to your score
-- These cards then disspear
-- If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back
-- The game continues until you match all the cards on the board
+# *Features*
+Piano has the following features:
 
-### MIT Licence
+1. *Card Matching:* In the "Memory Game: Star Wars," you are presented with a grid of cards. Each card contains an image of a character or element from the Star Wars franchise. Your goal is to match cards with identical images by flipping them over.
 
-Copyright (c) 2020 Ania Kubow
+2. *Interactive Play:*  You can interact with the game in the following ways:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+- Click on a card to flip it over and reveal the image.
+- Attempt to match two cards with the same image.
+- If the cards match, they remain face up; otherwise, they flip back over.
+- Click on 
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+3. *Scoring:* Your performance is scored based on how quickly you can match all the cards. Challenge yourself to improve your memory and beat your previous scores.
 
-*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+4. *Play with Music:* Choose your favorite Stars Wars soundtrack from the song list.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# *How to play:*
+Users can use the piano as follows:
+
+1. Click on a card to reveal the image.
+2. Click on another card to try and find a match.
+3. If the two cards match, they will remain face up.
+4. If they do not match, they will flip back over.
+5. Continue matching cards until you find all the pairs.
+6. The game tracks the time it takes you to complete it, so try to solve it as quickly as possible.
+7. Compare your scores with your friends and see who can complete the game the fastest!
+
+# *Technologies Used*
+
+- HTML: The structure and content of the game.
+- CSS: Styling and layout of the game interface.
+- JavaScript: Implementing game logic, including card matching and timer functionality.
+
+# *Credits*
+
+- Star Wars images and characters are the intellectual property of Lucasfilm Ltd. This game is a fan-made project for non-commercial use.
