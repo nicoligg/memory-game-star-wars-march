@@ -1,4 +1,5 @@
 # Memory Game: Star Wars
+![lightsaber](https://www.arbin.com/wp-content/uploads/2019/10/lightsaber-battery-1024x270-2.png)
 March Automation Team Challenge: Memory Game Star Wars
 
 ![Badge Complete](https://img.shields.io/badge/status-developing-blue)
