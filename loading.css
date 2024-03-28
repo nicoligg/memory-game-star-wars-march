@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    background-color: #2E3644;
+}
+
+.loading-screen{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loading-gif{
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,281 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px auto;
+  gap: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("./images/stars.gif");
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+  background-repeat: repeat;
+  padding-top: 100px;
+}
+
+.title {
+  color: #ffffffff;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 10px purple, 0 0 10px blue, 0 0 10px purple;
+  font-family: "Starjedi", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
+}
+
+.points {
+  color: #ffffffff;
+  text-align: center;
+  margin: 5vh auto;
+  font-size: calc(0vw + 20px);
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  font-family: "HyperSuperRegular", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
+    sans-serif;
+  position: flex;
+  left: 0;
+}
+
+@font-face {
+  font-family: "Starjedi";
+  src: url("Starjedi.woff2") format("woff2"),
+    url("Starjedi.woff") format("woff"), url("Starjedi.ttf") format("truetype");
+}
+
+#selection {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 16px;
+}
+
+#player {
+  position: absolute;
+  width: 500px;
+  height: 37px;
+  top: 0;
+  left: 60.5%;
+  margin: 16px;
+}
+
+.active {
+  transform: scale(1.1);
+  border-color: white;
+  box-shadow: 0 0 50px white;
+}
+
+#timer {
+  font-size: 24px;
+  color: #5a00ba;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  font-family: "HyperSuperRegular", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  position: absolute;
+  left: 90%;
+  top: 64px;
+}
+
+.footer {
+  color: #9b9b9b;
+  background-color: #171717;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-family: "HyperSuperRegular", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.messageeq {
+  font: 18px verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background-clip: text;
+  color: white;
+  opacity: 80%;
+	text-shadow: 0px 2px 4px purple;
+}
+
+.messageerr {
+  font: 18px verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background-clip: text;
+  color: white;
+  opacity: 80%;
+	text-shadow: 0px 2px 4px purple;
+}
+
+.messageacer {
+  font: 18px verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background-clip: text;
+  color: white;
+  opacity: 80%;
+	text-shadow: 0px 2px 4px purple;
+}
+
+@media screen and (min-width: 568px) {
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-left: 2%;
+    margin-top: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+  p.fotter {
+    font-size: 26px;
+  }
+  .points {
+    font-size: 24px;
+  }
+  #selection {
+    font-size: 18px;
+  }
+  #timer {
+    margin-bottom: 20px;
+  }
+
+  .grid img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .messageeq {
+  font: 30px;
+  }
+  
+  .messageerr {
+    font: 30px;
+  }
+  
+  .messageacer {
+    font: 30px;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-left: 2%;
+    margin-top: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+  p.fotter {
+    font-size: 20px;
+  }
+  .points {
+    font-size: 24px;
+  }
+  #selection {
+    font-size: 18px;
+  }
+  #timer {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-left: 2%;
+    margin-top: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+  p.fotter {
+    font-size: 18px;
+  }
+  .points {
+    font-size: 24px;
+  }
+  #selection {
+    font-size: 16px;
+  }
+  #timer {
+    margin-bottom: 20px;
+  }
+  .grid {
+    height: 200px;
+    max-width: 1000px;
+  }
+  .grid img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-left: 2%;
+    margin-top: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+  p.fotter {
+    font-size: 18px;
+  }
+  .points {
+    font-size: 24px;
+  }
+  #selection {
+    font-size: 16px;
+  }
+  .grid {
+    height: 200px;
+    max-width: 1000px;
+  }
+  .grid img {
+    width: 100px;
+    height: 100px;
+  }
+}

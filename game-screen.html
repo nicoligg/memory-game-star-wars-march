@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game: Star Wars</title>
+  <link rel="stylesheet" href="game-screen.css">
+  <link rel="icon" type="imagex/png" href="images/r2.png" alt="RD-D2 Star Wars Icon">
+  <script src="game-screen.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <audio id="player" controls="controls">
+    <source id="mp3_src" src="/teachings/2011_01_09_Cut.mp3" type="audio/mp3" />Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <span id="timer">0:00</span>
+  <h2 class="title">Memory Game: Star Wars</h2>
+  <h3 class="points">Score: <span id="result"></span></h3>
+
+  <div class="grid"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <select id="selection">
+    <option value="">- Select the song -</option>
+    <option value="sounds/music-theme.mp3">Stars Wars Music Theme</option>
+    <option value="sounds/reys-theme.mp3">Reys Theme</option>
+    <option value="sounds/the-imperial-march.mp3">The Imperial Theme</option>
+    <option value="sounds/victory-celebration.mp3">Victory Celebration</option>
+    <option value="sounds/anakins-theme.mp3">Anakin's Theme</option>
+    <option value="sounds/the-sith-spacecraft-and-the-droid-battle.mp3">The Sith Spacecraft and the Droid Battle</option>
+    <option value="sounds/luke-vs-vader.mp3">Luke vs Vader</option>
+    <option value="sounds/burying-the-dead.mp3">Burying The Dead (It's Over Now)</option>
+  </select>
+  <br/>
+
+  <div class="alert"></div>
+
+</body>
+
+<footer>
+  <p class="footer">Copyright @2024 | All Rights Reserved</p>
+</footer>
+
+</html>
