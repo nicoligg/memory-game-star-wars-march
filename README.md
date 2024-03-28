@@ -2,7 +2,7 @@
 March Automation Team Challenge: Memory Game Star Wars
 
 ![Badge Complete](https://img.shields.io/badge/status-developing-blue)
-![Badge Release Date](https://img.shields.io/badge/release%20date-March-red)
+![Badge Release Date](https://img.shields.io/badge/release%20date-march-purple)
 
 ![starwars](https://i0.wp.com/experimentesp.com.br/wp-content/uploads/2015/12/c3po-r2d2-luke-leia.gif?resize=500%2C213)
 
